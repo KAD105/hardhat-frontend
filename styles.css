@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+/* Custom button ==================================================== */
+
+.styled-btn{
+    padding: 1rem 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+	background: #027ad6;
+	font-family: "Lato", sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+
+}
+
+.styled-btn:hover{
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.styled-btn:focus{
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #a72b2b;
+}
+
+/* Header ==================================================== */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+
+.header h1{
+    font-size: 2.25rem;
+    width: 10vw;
+    padding: 0 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+
+.nav-bar li {
+    display: flex;
+    flex: 1 1 auto;
+   
+    
+}
+
+.nav-bar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar a:hover{
+    color: #1c40a3;
+    transition: 0.7s;
+}
+
+/* Connect-area ==================================================== */
+
+.connect-your-wallet {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 5rem;
+
+}
+
+.connect-info-text h1 {
+    font-size: 3.5rem;
+}
+
+
+
+
+
+/* Footer ==================================================== */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 4rem 0;
+}
+
+.footer-logo h1{
+  font-size: 3rem;
+  margin:.5rem 0 ;
+  
+}
+
+.footer-logo p{
+    width: 20vw;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+    padding-bottom: .5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-icon {
+    font-size: 2rem;
+    padding: .25rem;
+}
+
+
