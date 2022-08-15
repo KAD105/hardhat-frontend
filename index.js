@@ -19,4 +19,12 @@ const fundBtn = document.querySelector(".fund__btn");
       }
  })
 
+ fundBtn.addEventListener("click", async function fund(){
+  if(typeof window.ethereum !== "undefined"){
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    console.log(signer);
+    
+  }
+ })
 
