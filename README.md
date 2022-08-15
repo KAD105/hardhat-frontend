@@ -1,6 +1,9 @@
 # Hardhat-Frontend
 This is a simple blockchain web app called Your Brand
 
+![front-page-1](./img/front-page-1.JPG)
+![front-page-2](./img/front-page-2.JPG)
+
 # Requirements
 
 - [Metamask](https://metamask.io/)
