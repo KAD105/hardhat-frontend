@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -6,11 +8,15 @@
 
 body{
     margin: 0;
+    background: #DFC2F2;
+    background-image: linear-gradient( to right, #ffffb3,#ffe6e6);    
 }
 
 h2{
     margin: 0;
 }
+
+
 
 /* Custom button ==================================================== */
 
@@ -40,56 +46,72 @@ h2{
     box-shadow: 0 0 0 4px #a72b2b;
 }
 
+/* Custom p-tag ================================================= */
+
+.p-tag-style{
+    margin: 0;
+    font-size: 1.125rem;
+    padding: 1.5rem;
+    font-family: 'EB Garamond', serif;
+	text-align: center;
+	color: #7d7d7d;
+}
+
+
 /* Header ==================================================== */
 
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background: black;
     color: white;
 }
 
 
 .header h1{
     font-size: 2.25rem;
-    width: 10vw;
-    padding: 0 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:2rem;
+    text-transform: uppercase;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'EB Garamond', serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
 }
 
 .nav-bar{
-    width: 50%;
     display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-    
+    list-style: none;
+    margin-right: 2rem;
 }
 
 .nav-bar li {
-    display: flex;
-    flex: 1 1 auto;
-   
-    
+    margin: 1rem;
 }
 
 .nav-bar a {
-    font-size: 1.5rem;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .nav-bar a:hover{
-    color: #1c40a3;
-    transition: 0.7s;
+    color: #027ad6;
 }
 
 /* Connect-area ==================================================== */
 
+
+.connect-area{
+    margin-bottom: 3rem;
+}
 .connect-your-wallet {
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     justify-items: center;
     align-items: center;
     margin: 5rem;
@@ -97,11 +119,46 @@ h2{
 }
 
 .connect-info-text h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    
 }
 
 
+.balance{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));;
+    
+}
 
+.balance__col{
+    margin: 2rem;
+    background-color: #b4b7bd;
+    display: grid;
+    justify-items: center;
+    box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	border-radius: 5px;
+    padding: 2rem 0;
+	
+	
+}
+
+.balance__col h1{
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+	display: inline-block;
+	color: #344055;
+}
+
+.balance__col button{
+    margin-bottom: 1rem;
+}
+
+
+/* .connect-btn__green {
+    background: green;
+} */
 
 
 /* Footer ==================================================== */
@@ -152,6 +209,10 @@ h2{
     display: flex;
     flex-direction: column;
     
+}
+
+.social-links h2{
+    margin-bottom: 2rem;
 }
 
 .contact-icon {
