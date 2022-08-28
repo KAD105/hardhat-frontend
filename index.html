@@ -39,23 +39,23 @@
             
         </div>
 
-        <div class="balance">
-            <div class="withdraw balance__col">
+        <div class="transaction">
+            <div class="withdraw transaction__col">
                 <h1>Withdraw</h1>
                 <p class="p-tag-style"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt enim dolore corporis, laboriosam quibusdam nemo ipsa quae delectus minima magnam doloremque consequatur cum maxime ratione excepturi incidunt, ut sequi?
                 </p>
                 <button class="withdraw__btn styled-btn">Withdraw</button>
             </div>
-            <div class="get-balance balance__col">
-                <h1 class="get-balance__title">Balance</h1>
-                <p class="p-tag-style"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt enim dolore corporis, laboriosam quibusdam nemo ipsa quae delectus minima magnam doloremque consequatur cum maxime ratione excepturi incidunt, ut sequi?
-                </p>
-                <button class="get-balance__btn styled-btn">Get Balance</button>
+            <div class="balance transaction__col">
+                <h1 class="balance__title">Balance</h1>
+                <p class="p-tag-style">Here you can observe the balance of your wallet or account.</p>
+                <p class="balance__massage">Your current balance is <span id="balance__amount">0.00</span> ETH!</p>
+                <button class="balance__btn styled-btn">Balance</button>
             </div>
-            <div class="fund balance__col">
+            <div class="fund transaction__col">
                 <h1 class="fund__title">Fund</h1>
-                <p class="p-tag-style"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt enim dolore corporis, laboriosam quibusdam nemo ipsa quae delectus minima magnam doloremque consequatur cum maxime ratione excepturi incidunt, ut sequi?
-                </p>
+                <p class="p-tag-style"> Please enter the amount of ETH that you want to fund.</p>
+                <input type="text" id="eth-amount" class="input-styles" placeholder="At least 0.1 ETH">
                 <button class="fund__btn styled-btn">Fund</button>
             </div>
         </div>
