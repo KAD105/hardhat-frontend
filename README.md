@@ -49,7 +49,7 @@ Make sure you have the following installed:
 1. You'll need to open up a second terminal and run:
 
 ```
-git clone https://github.com/KAD105/hardhat-fundme
+git clone https://github.com/ace-brown/hardhat-fundme
 cd hardhat-fundme
 yarn
 yarn hardhat node
