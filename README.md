@@ -17,7 +17,7 @@ This is a simple blockchain web app called Your Brand
 1. Clone the repo
 
 ```
-git clone https://github.com/KAD105/hardhat-frontend
+git clone https://github.com/ace-brown/hardhat-fundme
 cd hardhat-frontend
 ```
 
