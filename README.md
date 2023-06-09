@@ -8,7 +8,7 @@ This is a simple blockchain web app called Your Brand
 
 - [Metamask](https://metamask.io/)
 
-> **PLEASE USE A METAMASK ACCOUNT THAT DOESN  NOT HAVE REAL MONEY.**
+> **PLEASE USE A METAMASK ACCOUNT THAT DOES  NOT HAVE REAL MONEY.**
 
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) 
 
