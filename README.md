@@ -38,7 +38,7 @@ And you should see a small button that says "connect".
 ![Connect](./img/connectBtn.JPG)
 
 Hit it, and metamask pop up.
-> **PLEASE USE A METAMASK ACCOUNT THAT DOESN  NOT HAVE REAL MONEY.**
+> **PLEASE USE A METAMASK ACCOUNT THAT DOES  NOT HAVE REAL MONEY.**
 
 # Execute a transaction
 
